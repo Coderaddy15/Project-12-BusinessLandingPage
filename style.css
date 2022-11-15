@@ -1,0 +1,518 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins',sans-serif;
+}
+header{
+    background-color: #636C79;
+    height: 90vh;
+}
+
+
+.logo img{
+    height:27px ;
+    width: 80px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+nav {
+    float: right;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+
+.nav-item {
+    margin-right: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.9em;
+    
+}
+
+.lets-talk {
+    margin-left: 80px;
+    padding: 5px 28px 5px 28px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.105);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 550;
+    cursor: pointer;
+    
+}
+.lets-talk:hover{
+    background-color: slategray;
+}
+
+.blogsection-1 {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.image-1 img {
+    width: 290px;
+    height: 340px;
+    margin-left: 50px;
+}
+
+.content-1 h2 {
+    font-size: 45px;
+    color: #fff;
+}
+
+.content-1 p {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.612);
+    line-height: 20px;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    margin-left: 50px;   
+   
+
+}
+
+.image-1 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.form{
+    margin-top: 30px;
+    width: 350px;
+    padding: 10px 0px 10px 35px ;
+ background-color:#fff;
+}
+#email{
+    border: none;
+}
+.letstalk-2{
+    margin-left: 60px;
+    padding: 8px 30px ;
+    color: #fff;
+    background-color: rgba(14, 94, 14, 0.562);
+    border: none;
+    cursor: pointer;
+}
+.letstalk-2:hover{
+    background-color: darkgreen;
+}
+
+
+.header-2{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.project-status{
+    margin-top: 40px;
+}
+.project-info{
+    display: flex;
+    justify-content: space-around;
+}
+.project-info2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgba(0, 0, 0, 0.479);
+}
+.list-2{
+    font-weight: 600;
+}
+.image-2{
+    margin-top: 40px;
+}
+.image-2 img{
+    width: 65%;
+    height: 60vh;
+    margin-left: 220px;
+ }
+ .header-3{
+    margin-top: 100px;
+      text-align: center;
+ }
+ .blogsection-2{
+    margin-top: 60px;
+    margin-left: 220px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;  
+ }
+ 
+
+ .image-3 img{
+    width: 340px;
+    height: 350px;
+    margin-left: 50px;
+ }
+ .content-2 h2{
+    font-size: 34px;
+ }
+
+.content-2 p{
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.575);
+    line-height: 25px;
+    font-size: 17px;
+}
+.letstalk-3{
+    padding: 8px 30px 8px 30px ;
+    color: #fff;
+    background-color: rgba(14, 94, 14, 0.562);
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.letstalk-3:hover{
+    background-color: darkgreen;
+}
+.blogsection-3{
+    margin-top: 60px;
+    margin-left: 220px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-4 img{
+    width: 340px;
+    height: 350px;
+}
+.content-3{
+    margin-left: 130px;
+}
+.content-3 h2{
+    font-size: 34px;
+}
+.content-3 p{
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.575);
+}
+.letstalk-4{
+    padding: 8px 30px 8px 30px ;
+    color: #fff;
+    background-color: rgba(14, 94, 14, 0.562);
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.letstalk-4:hover{
+    background-color: darkgreen;
+}
+.blogsection-4{
+    margin-top: 60px;
+    margin-left: 220px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.image-5 img{
+    width: 340px;
+    height: 350px;
+    margin-left: 50px;
+}
+.content-4 h2{
+font-size: 34px;
+}
+.content-4 p{
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.575);
+}
+.letstalk-5{
+    padding: 8px 30px 8px 30px ;
+    color: #fff;
+    background-color: rgba(14, 94, 14, 0.562);
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.letstalk-5:hover{
+    background-color: darkgreen;
+}
+.section-5{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.section-5 h2{
+    font-size: 34px;
+}
+.section-5 p{
+    font-size: 17px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.575);
+    margin-top: -1px;
+}
+.section-6{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-around;
+    margin-right: 80px;
+    margin-left: 120px;
+}
+.part-1 img{
+    height: 290px;
+    width: 250px;
+}
+.part-2 img{
+    height: 290px;
+    width: 250px;
+}
+.part-3 img{
+    height: 290px;
+    width: 250px;
+}
+.bottom-head{
+    margin-top: 5px;
+}
+.bottom-para{
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.575);
+}
+.see-more{
+    text-align: center;
+}
+.see-more button{
+    padding: 8px 30px 8px 30px ;
+    color: #fff;
+    background-color: rgba(14, 94, 14, 0.562);
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.see-more button:hover{
+    background-color: darkgreen;
+}
+footer{
+    background-color: black;
+    height: 400px;
+    margin-top: 80px;
+}
+.icons{
+    margin-top: -30px;
+    float: right;
+    margin-right: 100px;
+}
+.icons img{
+    margin-left: 10px;
+    padding: 5px 5px;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+}
+.logo-2 img{
+    margin-top: 40px;
+    margin-left: 120px;
+    height:27px ;
+    width: 80px;
+}
+.hr-break{
+    margin-top: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.256);
+    width: 82.5%;
+    margin-left: 120px;
+}
+.footer-column{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.column-heading{
+    color: #fff;
+}
+.item{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.479);
+    margin-top: 15px;
+    font-size: 10px;
+}
+@media only screen and (max-width:650px) {
+    .logo img{
+        width: 30px;
+        height: 15px;
+        margin-left: 20px;
+    }
+    .nav-item{
+        font-size: 10px;
+        margin-left: ;
+    }
+    nav{
+        margin-left: 110px;
+        
+    }
+    .lets-talk{
+        margin-left: 410px;
+        font-size: 7px;
+        padding: 5px 13px;
+        margin-top: -30px; 
+    }
+    .image-1 img{
+        width: 170px;
+        height: 45vh;
+    }
+    .content-1 h2{
+        font-size: 27px;
+        width: 300px;
+
+    }
+    .content-1 p{
+        font-size: 9px;
+    }
+    .form{
+        width: 180px;
+        padding: 5px 5px 5px 10px;
+    }
+    .input{
+        font-size: 7px;
+    }
+    .letstalk-2{
+        font-size: 9px;
+        padding: 2px 7px;
+        margin-left: 30px;
+    }
+    header{
+        height: 70vh;
+    }
+    .image-2 img{
+        margin-left: 110px;
+    }
+    .content-2{
+        margin-left: -120px;
+    }
+    .content-2 h2{
+        font-size: 25px;
+    }
+    .content-2 p{
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .letstalk-3{
+        padding: 3px 8px;
+        font-size: 10px;
+    }
+    .image-3 img{
+        width: 200px;
+        height: 45vh;
+        margin-right: 100px;
+    }
+    .image-4 img{
+        width: 200px;
+        height: 45vh;
+        margin-left: -150px;
+    }
+    .blogsection-3{
+        display: flex;
+        margin-right: 200px;
+        
+    }
+    .letstalk-4{
+        padding: 3px 8px;
+        font-size: 10px;
+
+    }
+    .content-3{
+        margin-right: 120px;
+    }
+    .content-3 h2{
+        font-size: 20px;
+        width: 200px;
+        
+    }
+    .content-3 p{
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .content-4{
+        margin-left: -120px;
+    }
+    .content-4 h2{
+        font-size: 25px;
+    }
+    .content-4 p{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .letstalk-5{
+        padding: 3px 8px;
+        font-size: 10px;
+    }
+    .image-5 img{
+        width: 200px;
+        height: 45vh;
+        margin-right: 100px;
+        
+    }
+    .section-5 h2{
+        font-size: 25px;
+    }
+    .section-5 p{
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    .part-1 img{
+        width: 180px;
+        height: 40vh;
+    }
+    .part-1 h3{
+        font-size: 15px;
+    }
+    .part-1 p{
+        font-size: 8px;
+    }
+
+    .part-2 img{
+        width: 180px;
+        height: 40vh;
+    }
+    .part-2 h3{
+        font-size: 15px;
+    }
+    .part-2 p{
+        font-size: 8px;
+    }
+
+    .part-3 img{
+        width: 180px;
+        height: 40vh;
+    }
+    .part-3 h3{
+        font-size: 15px;
+    }
+    .part-3 p{
+        font-size: 8px;
+    }
+    .hr-break{
+        margin-left: 0;
+        width: 100%;
+    }
+
+
+
+
+
+
+}
